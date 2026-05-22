@@ -42,4 +42,4 @@ The app allows users to visualize how changes in the model parameters affect the
 To run the Shiny app in R, use:
 
 ```r
-[shiny::runApp("shiny")](https://wxtoj1-caroline-gon0alves.shinyapps.io/NGGD_Shiny/)
+[Access the Shiny app](https://gfem-ufsm.github.io/NGGD-and-NGG-regression-model/)
