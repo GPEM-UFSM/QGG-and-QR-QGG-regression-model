@@ -42,4 +42,4 @@ The app allows users to visualize how changes in the model parameters affect the
 To run the Shiny app in R, use:
 
 
-[Access the Shiny app](https://gpem-ufsm.github.io/QGG-and-NGG-regression-model/)
+[Access the Shiny app](https://gpem-ufsm.github.io/QGG-and-QR-QGG-regression-model/)
