@@ -3,54 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>QGG Distribution</title>
-
+    <title>Shiny App</title>
     <script
       src="./shinylive/load-shinylive-sw.js"
       type="module"
     ></script>
-
     <script type="module">
       import { runExportedApp } from "./shinylive/shinylive.js";
-
       runExportedApp({
         id: "root",
         appEngine: "r",
         relPath: "",
       });
     </script>
-
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
-
-    <style>
-      html,
-      body,
-      #root {
-        min-height: 100%;
-        background: linear-gradient(
-          135deg,
-          #f3faf6 0%,
-          #eef7f8 50%,
-          #e8f2fa 100%
-        ) fixed !important;
-      }
-
-      .container-fluid {
-        background: transparent !important;
-      }
-
-      .well {
-        background: rgba(255, 255, 255, 0.72) !important;
-        border: 1px solid rgba(33, 102, 172, 0.25) !important;
-        border-radius: 12px !important;
-        box-shadow: 0 4px 14px rgba(30, 90, 105, 0.10) !important;
-      }
-    </style>
+    
   </head>
-
   <body>
-    <div style="min-height: 100vh; width: 100vw" id="root"></div>
+    
+    <div style="height: 100vh; width: 100vw" id="root"></div>
+    
   </body>
 </html>
